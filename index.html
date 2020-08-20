@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./build/css/style.css">
+	<link rel="stylesheet" href="./src/normalizecss/normalize.css">
+	<link
+		href="https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,300; 0,500; 0,700; 1,300 & display = swap"
+		rel="stylesheet">
+	<link rel="shortcut icon" href="./src/img/ico/icon.png" type="image/x-icon">
+	<title>PRAVIIN</title>
+</head>
+
+<body>
+	<header class="header container" id="header__popup">
+		<div class="header__top">
+			<div class="header__top-logo">
+				<a class="name-site" href="/index.html">praviin</a>
+				<div class="top__logo-subtext">
+					<p>Защита прав и интересов инвестора</p>
+				</div>
+			</div>
+			<div class="header__top-email">
+				<div class="info">
+					<img src="./src/img/imgemail.png" alt="email">
+					<a class="email" href="mailto:all@praviin.ru">all@praviin.ru</a>
+				</div>
+				<div class="info">
+					<img src="./src/img/telegram.png" alt="telegram">
+					<p class="telegram">@praviin_ru</p>
+				</div>
+			</div>
+			<div class="header__top-btn">
+				<a class="top__btn-b btn" href="#title1" class="js-scroll">Подать претензию</a>
+				<a class="top__btn-g btn" href="#popup">Бесплатная консультация</a>
+			</div>
+		</div>
+		<nav class="header__nav menu">
+			<ul class="menu__list">
+				<li>
+					<a class="menu__link" href="/index.html">главная</a>
+				</li>
+				<li>
+					<a class="menu__link" href="./src/pages/praviin.html">о praviin</a>
+				</li>
+				<li>
+					<a class="menu__link" href="./src/pages/trejder.html">трейдерам</a>
+					<ul class="sub-menu__list">
+						<li>
+							<a class="sub-menu__link" href="./src/pages/ribejt.html">рибейт сервис</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a class="menu__link" href="/src/pages/broker.html">брокерам</a>
+				</li>
+				<li>
+					<a class="menu__link" href="./src/pages/informaciya.html">информация</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="main">
+		<div class="main__title-text">
+			<h1>защита прав и интересов инвестора</h1>
+		</div>
+	</section>
+
+	<section class="caunt container">
+		<div class="caunt__title">
+			<h2>Статистика</h2>
+		</div>
+		<div class="caunt__item">
+			<div class="caunt__item-items">
+				<span class="number">574</span>
+				<span class="text">Принято претензий</span>
+			</div>
+			<div class="caunt__item-items">
+				<span class="number">547</span>
+				<span class="text">Обработано претензий</span>
+			</div>
+			<div class="caunt__item-items">
+				<span class="number dolar">650 000$</span>
+				<span class="text">Выплачено</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="info container">
+		<div class="info__card">
+			<div class="info__card-img">
+				<img src="./src/img/icon/iconman1.png" alt="img">
+			</div>
+			<div class="info__card-text">
+				<h2>притензии к брокерам</h2>
+				<p>В PRAVIIN рассматриваются претензии к любым компаниям, независимо от их юрисдикции</p>
+			</div>
+		</div>
+		<div class="info__card orange">
+			<div class="info__card-img reds">
+				<img src="./src/img/icon/iconman2.png" alt="img">
+			</div>
+			<div class="info__card-text">
+				<h2>арбитражная комиссия</h2>
+				<p>Вы всегда сможите ознакомиться с членами<br>абитражной комиссии, а также с отчетами о рассмотренных
+					претензиях</p>
+			</div>
+		</div>
+		<div class="info__card green">
+			<div class="info__card-img orangs">
+				<img src="./src/img/icon/iconman3.png" alt="img">
+			</div>
+			<div class="info__card-text">
+				<h2>полезное</h2>
+				<p>Как правильно заполнить претензию?<br>Как отозвать претензию?<br>К какой компании я могу отправить
+					претензию?</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="forms container">
+		<div class="forms__aboutus" id="title1">
+			<h3>Подать претензию</h3>
+			<form name="User form" class="form" autocomplete="on">
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="Презензия к PRAVIIN">
+				<input type="hidden" name="admin_email" value="all@praviin.ru">
+				<input type="hidden" name="form_subject" value="User form">
+				<!-- END Hidden Required Fields -->
+				<input class="form-data" type="text" name="Name" placeholder="Ф.И.О." required>
+				<input class="form-data" type="text" name="Date-of-Birth" placeholder="Дата рождения" required>
+				<input class="form-data" type="tel" name="Telephone" placeholder="Телефон" required>
+				<input class="form-data" type="email" name="Email" placeholder="E-mail" required>
+				<input class="form-data" type="text" name="NameBroker" placeholder="Название брокера" required>
+				<input class="form-data" type="text" name="Sum" placeholder="Сумма инвестиций" required>
+				<button class="form-but" type="submit">Отправить</button>
+			</form>
+		</div>
+		<div class="forms__img">
+			<img src="./src/img/formimg2.jpg" alt="img">
+		</div>
+	</section>
+
+	<section class="tabs">
+		<div class="tabs__tab">
+			<nav class="tabs__tab-items">
+				<a href="#tab_01" class="tabs__tab-child">безопасный форекс</a>
+				<a href="#tab_02" class="tabs__tab-child">полезные материалы</a>
+				<a href="#tab_03" class="tabs__tab-child">дайджест новостей</a>
+				<a href="#tab_04" class="tabs__tab-child">вебинары для трейдеров</a>
+			</nav>
+			<div class="tabs__body">
+				<div id="tab_01" class="tabs__block">
+					<h3>БЕЗОПАСНЫЙ ФОРЕКС</h3>
+					<p>Только у нас вы сможете найти проверенных форекс брокеров. Участвуйте в партнерской программе.
+						Используйте все варианты защиты своего депозита от некорректных действий брокера!</p>
+					<p>Выберите подходящего форекс брокера, создайте аккаунт по соответствующей ссылке и сразу начните
+						торговать на финансовом рынке с максимальной защитой!</p>
+				</div>
+				<div id="tab_02" class="tabs__block">
+					<h3>ПОЛЕЗНЫЕ МАТЕРИАЛЫ</h3>
+					<p>На форуме PRAVIIN собрано огромное количество полезных статей как для торговли на рынке форекс, так и
+						по действиям, которые способны обезопасить Вас от некорректных действий со стороны брокеров.</p>
+				</div>
+				<div id="tab_03" class="tabs__block">
+					<h3>ДАЙДЖЕСТ НОВОСТЕЙ</h3>
+					<p>Только у нас представлены самые актуальные новости форекс индустрии. Мы пристально следим за ситуацией
+						на рынке и последними изменениями в работе форекс брокеров.</p>
+				</div>
+				<div id="tab_04" class="tabs__block">
+					<h3>ВЕБИНАРЫ ДЛЯ ТРЕЙДЕРОВ</h3>
+					<p>В PRAVIIN постоянно проходят вебинары на самые актуальные темы финансовых рынков.</p>
+					<p>Участвуйте, смотрите, комментируйте!<br>Будьте в курсе последних новостей!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="services container">
+		<div class="services__items">
+			<div class="services__items-item">
+				<img src="./src/img/icon/icon1.png" alt="icon">
+				<p>Обеспечение условий и координация деятельности участников международных финансовых рынков</p>
+			</div>
+			<div class="services__items-item">
+				<img src="./src/img/icon/icon2.png" alt="icon">
+				<p>Разработка и содействие внедрению правил и стандартов проведения операций на финансовых рынках</p>
+			</div>
+			<div class="services__items-item">
+				<img src="./src/img/icon/icon3.png" alt="icon">
+				<p>Разработка учебных программ и повышения общей финансовой грамотности трейдеров на форуме PRAVIIN</p>
+			</div>
+			<div class="services__items-item">
+				<img src="./src/img/icon/icon4.png" alt="icon">
+				<p>Содействие минимизации рисков участников международных финансовых рынков</p>
+			</div>
+			<div class="services__items-item">
+				<img src="./src/img/icon/icon5.png" alt="icon">
+				<p>Содействие в организации условий по повышению качества работы участников международных рынков</p>
+			</div>
+			<div class="services__items-item">
+				<img src="./src/img/icon/icon6.png" alt="icon">
+				<p>Механизм PRAVIIN позволяет рассматривать и урегулировать споры вне зависимости от юрисдикции компании и
+					клиента</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="subinfo">
+		<div class="subinfo__text container">
+			<div class="subinfo__text-content">
+				<h4 class="title">Трейдерам</h4>
+				<div class="content-item">
+					<img src="./src/img/gal.png" alt="icon">
+					<p>Форма отправки претензий. В данном разделе сайта Вы ознакомитесь с регламентом рассмотрения заявлений
+						и претензий к компаниям.</p>
+				</div>
+				<div class="content-item">
+					<img src="./src/img/gal.png" alt="icon">
+					<p>FAQ. В данном разделе сайта приведены наиболее часто задаваемые вопросы и типовые претензии, на
+						которые уже даны ответы.</p>
+				</div>
+				<div class="content-item">
+					<img src="./src/img/gal.png" alt="icon">
+					<p>Состав Арбитражной Комиссии. В данном разделе сайта Вы сможете ознакомиться с составом Арбитражной
+						Комиссии PRAVIIN, которая принимает решения по рассматриваемым претензиям.</p>
+				</div>
+				<div class="content-item">
+					<img src="./src/img/gal.png" alt="icon">
+					<p>Отчёты о работе Арбитражной Комиссии. В данном разделе сайта сосредоточены данные о деятельности
+						PRAVIIN.</p>
+				</div>
+				<div class="content-item">
+					<img src="./src/img/gal.png" alt="icon">
+					<p>Рейтинг компаний. В данном разделе сайта Вы ознакомитесь с рейтингом компаний, который формируется на
+						самых понятных и прозрачных алгоритмах.</p>
+				</div>
+			</div>
+			<div class="subinfo__text-content">
+				<h4 class="title">Брокерам</h4>
+				<div class="content-item">
+					<img src="./src/img/gal.png" alt="icon">
+					<p>Брокеры в PRAVIIN. PRAVIIN осуществляет мониторинг деятельности и рассмотрение претензий к форекс
+						компаниям. Мы приглашаем к открытому диалогу брокеров и независимых представителей индустрии.</p>
+				</div>
+				<div class="content-item">
+					<img src="./src/img/gal.png" alt="icon">
+					<p>Представитель брокера в PRAVIIN. В случае возникновения спорных ситуаций между клиентом и форекс
+						компанией, мы готовы предоставить доступ представителю брокера при рассмотрении претензии.</p>
+				</div>
+				<div class="content-item">
+					<img src="./src/img/gal.png" alt="icon">
+					<p>Условия для участия. Каждый брокер может выступить в качестве спонсора определенного раздела. При этом
+						влиять на рассмотрение претензий к какой-либо компании не сможет.</p>
+				</div>
+				<div class="content-item">
+					<img src="./src/img/gal.png" alt="icon">
+					<p>Преимущества для компаний. Ваши клиенты хотят видеть не «темную лошадку», а открытую компанию,
+						предоставляющую передовые технологии и качественный сервис для торговли на финансовых рынках.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="news">
+		<h5 class="titlenews">Новости</h5>
+		<div class="news__block">
+			<div class="block-subtext">
+				<img src="./src/img/imgNews1.jpg" alt="icon">
+				<div class="subtext">
+					<h6 class="news-title">В России останется только три легальных форекс-дилера</h6>
+					<p>В России останется только три легальных форекс-дилера, имеющих лицензию Банка России: «ФИНАМ ФОРЕКС»,
+						«Альфа-Форекс» и ВТБ (MCX:VTBR) Форекс. Бывший четвертым «ПСБ-Форекс» будет ликвидирован по решению
+						Промсвязьбанка, который не сумел его продать, пишет «Коммерсант».
+						Это направление было убыточным для банка. По итогам 2019 года «ПСБ-Форекс» получил самый большой
+						убыток среди других компаний (40 млн руб.), а по итогам первого полугодия 2020 года оказалась
+						единственной убыточ...</p>
+					<a href="./src/pages/new.html">Подробнее »</a>
+				</div>
+			</div>
+			<div class="block-subtext">
+				<img src="./src/img/imgNews2.jpg" alt="icon">
+				<div class="subtext">
+					<h6 class="news-title">Банк России в I полугодии выявил 134 нелегальных форекс-дилеров</h6>
+					<p>Банк России в первом полугодии текущего года выявил 134 нелегальных форекс-дилеров против 81 в 2019
+						году, сказал директор департамента противодействия недобросовестным практикам Банка России Валерий Лях
+						на "Дальневосточном МедиаСаммите".
+						"У нас, действительно, есть такой значительный скачок тех нелегалов, которые стали использовать
+						интернет для продажи своих нелегальных услуг — это, прежде всего, нелегальные форекс-дилеры. Если в
+						первом полугодии 2019 года у нас был выявлен 81 нелегальный форекс-дилер...</p>
+					<a href="./src/pages/news.html">Подробнее »</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="iformation container">
+		<div class="iformation__subtitle">
+			<P>Защита прав и интересов инвесторов (PRAVIIN) – некоммерческая организация,
+				деятельность которой направлена на развитие услуг и регулирование отношений российских участников
+				международных финансовых рынков. Среди основных целей Комиссии, можно выделить такие, как: содействие в
+				минимизации рисков участников международных финансовых рынков, содействие по совершенствованию
+				законодательной и нормативной базы международных финансовых рынков, информирование заинтересованных
+				участников торгов о событиях в индустрии.</P>
+			<p>Широкий диапазон основной деятельности PRAVIIN включает в себя как разрешение вопросов и споров участников
+				международных финансовых рынков, так и обеспечение выполнения обязательств участников международных
+				финансовых рынков. Рынок форекс регулируется локально, а существует глобально, поэтому сегодня PRAVIIN
+				предоставляет медиативные механизмы для достижения компромиссов при возникновении спорных ситуаций.</p>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="footer__wraper container">
+			<div class="block-info">
+				<h4>механизм praviin</h4>
+				<p>Позволяет рассматриватьи урегулировать споры внезависимости от юрисдикции компании и клиента.</p>
+			</div>
+			<div class="block-info">
+				<h4>новости</h4>
+				<p>Актуальные новости из мира финансов помогут вам быть в курсе всех глобальных ситуаций</p>
+			</div>
+			<div class="block-info media">
+				<h4>контакты</h4>
+				<div class="info">
+					<img src="./src/img/logogmail.png" alt="email">
+					<a class="email" href="mailto:all@praviin.ru">all@praviin.ru</a>
+				</div>
+				<div class="info">
+					<img src="./src/img/telegram.png" alt="telegram">
+					<span class="telegram">@praviin_ru</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="popup" id="popup">
+		<div class="popup__body">
+			<div class="popup__content">
+				<a href="#header__popup" class="popup__close">X</a>
+				<div class="popup__form">
+					<form name="User form" class="form-popup" autocomplete="on">
+						<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="Презвоните мне!">
+						<input type="hidden" name="admin_email" value="all@praviin.ru">
+						<input type="hidden" name="form_subject" value="User form">
+						<!-- END Hidden Required Fields -->
+						<input class="form-data" type="tel" name="Telephone" placeholder="Телефон" required>
+						<input class="form-data" type="text" name="Name" placeholder="Ф.И.О." required>
+						<input class="form-data" type="datetime-local" name="Data end time" placeholder="" required>
+						<button class="form-but" type="submit">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="./build/js/script.js"></script>
+</body>
+
+</html>
